@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		859D83B61BC7E52200126B9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 859D83B51BC7E52200126B9C /* main.m */; };
+		859D83B91BC7E52200126B9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 859D83B81BC7E52200126B9C /* AppDelegate.m */; };
+		859D83BC1BC7E52200126B9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859D83BB1BC7E52200126B9C /* ViewController.m */; };
+		859D83BF1BC7E52200126B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859D83BD1BC7E52200126B9C /* Main.storyboard */; };
+		859D83C11BC7E52200126B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859D83C01BC7E52200126B9C /* Images.xcassets */; };
+		859D83C41BC7E52200126B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859D83C21BC7E52200126B9C /* LaunchScreen.xib */; };
+		859D83D01BC7E52200126B9C /* MutableUserNotificationActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 859D83CF1BC7E52200126B9C /* MutableUserNotificationActionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		859D83CA1BC7E52200126B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 859D83A81BC7E52200126B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859D83AF1BC7E52200126B9C;
+			remoteInfo = MutableUserNotificationAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		859D83B01BC7E52200126B9C /* MutableUserNotificationAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutableUserNotificationAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		859D83B41BC7E52200126B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859D83B51BC7E52200126B9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		859D83B71BC7E52200126B9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		859D83B81BC7E52200126B9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		859D83BA1BC7E52200126B9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		859D83BB1BC7E52200126B9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		859D83BE1BC7E52200126B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		859D83C01BC7E52200126B9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		859D83C31BC7E52200126B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		859D83C91BC7E52200126B9C /* MutableUserNotificationActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutableUserNotificationActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		859D83CE1BC7E52200126B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859D83CF1BC7E52200126B9C /* MutableUserNotificationActionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutableUserNotificationActionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		859D83AD1BC7E52200126B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859D83C61BC7E52200126B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		859D83A71BC7E52200126B9C = {
+			isa = PBXGroup;
+			children = (
+				859D83B21BC7E52200126B9C /* MutableUserNotificationAction */,
+				859D83CC1BC7E52200126B9C /* MutableUserNotificationActionTests */,
+				859D83B11BC7E52200126B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		859D83B11BC7E52200126B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				859D83B01BC7E52200126B9C /* MutableUserNotificationAction.app */,
+				859D83C91BC7E52200126B9C /* MutableUserNotificationActionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		859D83B21BC7E52200126B9C /* MutableUserNotificationAction */ = {
+			isa = PBXGroup;
+			children = (
+				859D83B71BC7E52200126B9C /* AppDelegate.h */,
+				859D83B81BC7E52200126B9C /* AppDelegate.m */,
+				859D83BA1BC7E52200126B9C /* ViewController.h */,
+				859D83BB1BC7E52200126B9C /* ViewController.m */,
+				859D83BD1BC7E52200126B9C /* Main.storyboard */,
+				859D83C01BC7E52200126B9C /* Images.xcassets */,
+				859D83C21BC7E52200126B9C /* LaunchScreen.xib */,
+				859D83B31BC7E52200126B9C /* Supporting Files */,
+			);
+			path = MutableUserNotificationAction;
+			sourceTree = "<group>";
+		};
+		859D83B31BC7E52200126B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				859D83B41BC7E52200126B9C /* Info.plist */,
+				859D83B51BC7E52200126B9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859D83CC1BC7E52200126B9C /* MutableUserNotificationActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				859D83CF1BC7E52200126B9C /* MutableUserNotificationActionTests.m */,
+				859D83CD1BC7E52200126B9C /* Supporting Files */,
+			);
+			path = MutableUserNotificationActionTests;
+			sourceTree = "<group>";
+		};
+		859D83CD1BC7E52200126B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				859D83CE1BC7E52200126B9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		859D83AF1BC7E52200126B9C /* MutableUserNotificationAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859D83D31BC7E52200126B9C /* Build configuration list for PBXNativeTarget "MutableUserNotificationAction" */;
+			buildPhases = (
+				859D83AC1BC7E52200126B9C /* Sources */,
+				859D83AD1BC7E52200126B9C /* Frameworks */,
+				859D83AE1BC7E52200126B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutableUserNotificationAction;
+			productName = MutableUserNotificationAction;
+			productReference = 859D83B01BC7E52200126B9C /* MutableUserNotificationAction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		859D83C81BC7E52200126B9C /* MutableUserNotificationActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859D83D61BC7E52200126B9C /* Build configuration list for PBXNativeTarget "MutableUserNotificationActionTests" */;
+			buildPhases = (
+				859D83C51BC7E52200126B9C /* Sources */,
+				859D83C61BC7E52200126B9C /* Frameworks */,
+				859D83C71BC7E52200126B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859D83CB1BC7E52200126B9C /* PBXTargetDependency */,
+			);
+			name = MutableUserNotificationActionTests;
+			productName = MutableUserNotificationActionTests;
+			productReference = 859D83C91BC7E52200126B9C /* MutableUserNotificationActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		859D83A81BC7E52200126B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ady;
+				TargetAttributes = {
+					859D83AF1BC7E52200126B9C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					859D83C81BC7E52200126B9C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 859D83AF1BC7E52200126B9C;
+					};
+				};
+			};
+			buildConfigurationList = 859D83AB1BC7E52200126B9C /* Build configuration list for PBXProject "MutableUserNotificationAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 859D83A71BC7E52200126B9C;
+			productRefGroup = 859D83B11BC7E52200126B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				859D83AF1BC7E52200126B9C /* MutableUserNotificationAction */,
+				859D83C81BC7E52200126B9C /* MutableUserNotificationActionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		859D83AE1BC7E52200126B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859D83BF1BC7E52200126B9C /* Main.storyboard in Resources */,
+				859D83C41BC7E52200126B9C /* LaunchScreen.xib in Resources */,
+				859D83C11BC7E52200126B9C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859D83C71BC7E52200126B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		859D83AC1BC7E52200126B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859D83BC1BC7E52200126B9C /* ViewController.m in Sources */,
+				859D83B91BC7E52200126B9C /* AppDelegate.m in Sources */,
+				859D83B61BC7E52200126B9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859D83C51BC7E52200126B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859D83D01BC7E52200126B9C /* MutableUserNotificationActionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		859D83CB1BC7E52200126B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 859D83AF1BC7E52200126B9C /* MutableUserNotificationAction */;
+			targetProxy = 859D83CA1BC7E52200126B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		859D83BD1BC7E52200126B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859D83BE1BC7E52200126B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		859D83C21BC7E52200126B9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859D83C31BC7E52200126B9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		859D83D11BC7E52200126B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		859D83D21BC7E52200126B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		859D83D41BC7E52200126B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MutableUserNotificationAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		859D83D51BC7E52200126B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MutableUserNotificationAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		859D83D71BC7E52200126B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MutableUserNotificationActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutableUserNotificationAction.app/MutableUserNotificationAction";
+			};
+			name = Debug;
+		};
+		859D83D81BC7E52200126B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MutableUserNotificationActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutableUserNotificationAction.app/MutableUserNotificationAction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		859D83AB1BC7E52200126B9C /* Build configuration list for PBXProject "MutableUserNotificationAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859D83D11BC7E52200126B9C /* Debug */,
+				859D83D21BC7E52200126B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859D83D31BC7E52200126B9C /* Build configuration list for PBXNativeTarget "MutableUserNotificationAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859D83D41BC7E52200126B9C /* Debug */,
+				859D83D51BC7E52200126B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		859D83D61BC7E52200126B9C /* Build configuration list for PBXNativeTarget "MutableUserNotificationActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859D83D71BC7E52200126B9C /* Debug */,
+				859D83D81BC7E52200126B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 859D83A81BC7E52200126B9C /* Project object */;
+}
